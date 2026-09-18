@@ -1,8 +1,6 @@
 name: Python Test Suite
 
-on: [push]
-# The workflow runs only when changes are pushed to the repository.
-# It does not run for pull requests.
+on: [push, pull_request]
 
 jobs:
   test:
